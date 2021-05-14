@@ -32,7 +32,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.Titulo = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label17 = new System.Windows.Forms.Label();
             this.cargausuario = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -41,7 +47,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label20 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.RegistrarMascota = new System.Windows.Forms.Button();
             this.cargamascota = new System.Windows.Forms.Button();
@@ -49,37 +57,29 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label21 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.botonSiguiente = new System.Windows.Forms.Button();
+            this.botonAnterior = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.Titulo = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.botonSiguiente = new System.Windows.Forms.Button();
-            this.botonAnterior = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
@@ -116,6 +116,55 @@
             this.tabPage1.Text = "Inicio";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // label19
+            // 
+            this.label19.Location = new System.Drawing.Point(379, 348);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(205, 301);
+            this.label19.TabIndex = 4;
+            this.label19.Text = "Veterinarios:                              Jesus Garrido Veterinario General, Jua" +
+    "n Fernández Veterinario Dermatología, Jimena Guti Veterinaria Cardiología, Maria" +
+    " De La Rosa Veterinaria  Neurología ";
+            // 
+            // label18
+            // 
+            this.label18.Location = new System.Drawing.Point(3, 83);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(289, 241);
+            this.label18.TabIndex = 3;
+            this.label18.Text = resources.GetString("label18.Text");
+            // 
+            // Titulo
+            // 
+            this.Titulo.Font = new System.Drawing.Font("Snap ITC", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Titulo.ForeColor = System.Drawing.Color.Red;
+            this.Titulo.Location = new System.Drawing.Point(0, 16);
+            this.Titulo.Name = "Titulo";
+            this.Titulo.Size = new System.Drawing.Size(306, 54);
+            this.Titulo.TabIndex = 2;
+            this.Titulo.Text = "Clínica Jupar";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::EjemploTabs_2021.Properties.Resources.perroygato1;
+            this.pictureBox3.Image = global::EjemploTabs_2021.Properties.Resources.perroygato1;
+            this.pictureBox3.Location = new System.Drawing.Point(-4, 348);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(365, 317);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::EjemploTabs_2021.Properties.Resources.emblemaVeterinario_1;
+            this.pictureBox2.Location = new System.Drawing.Point(312, 16);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(286, 308);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.label17);
@@ -138,6 +187,16 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Usuarios";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label17
+            // 
+            this.label17.Font = new System.Drawing.Font("Snap ITC", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label17.Location = new System.Drawing.Point(75, 10);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(205, 50);
+            this.label17.TabIndex = 11;
+            this.label17.Text = "Usuarios";
             // 
             // cargausuario
             // 
@@ -216,6 +275,17 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nombre";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::EjemploTabs_2021.Properties.Resources.buscadormascotaaas__2__LI;
+            this.pictureBox1.Image = global::EjemploTabs_2021.Properties.Resources.buscadormascotaaas__2__LI;
+            this.pictureBox1.Location = new System.Drawing.Point(-4, 196);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(352, 481);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
             // tabPage4
             // 
             this.tabPage4.Controls.Add(this.label20);
@@ -236,6 +306,15 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "mascotas";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // label20
+            // 
+            this.label20.Font = new System.Drawing.Font("Snap ITC", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(72, 12);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(185, 40);
+            this.label20.TabIndex = 9;
+            this.label20.Text = "Mascotas";
             // 
             // label12
             // 
@@ -300,6 +379,26 @@
             this.label9.TabIndex = 0;
             this.label9.Text = "Nombre";
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::EjemploTabs_2021.Properties.Resources.gatomedico__2_;
+            this.pictureBox5.Location = new System.Drawing.Point(259, 303);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(358, 374);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 8;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::EjemploTabs_2021.Properties.Resources.cachorros;
+            this.pictureBox4.Location = new System.Drawing.Point(3, 121);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(286, 179);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 7;
+            this.pictureBox4.TabStop = false;
+            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.label21);
@@ -320,6 +419,15 @@
             this.tabPage3.Text = "Adopciones";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // label21
+            // 
+            this.label21.Font = new System.Drawing.Font("Snap ITC", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(197, 3);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(230, 61);
+            this.label21.TabIndex = 8;
+            this.label21.Text = "Adopciones";
+            // 
             // label16
             // 
             this.label16.BackColor = System.Drawing.Color.Yellow;
@@ -329,6 +437,27 @@
             this.label16.Size = new System.Drawing.Size(171, 49);
             this.label16.TabIndex = 7;
             this.label16.Text = "LLama al 887 778 578 y adoptame ";
+            // 
+            // botonSiguiente
+            // 
+            this.botonSiguiente.AutoSize = true;
+            this.botonSiguiente.Image = global::EjemploTabs_2021.Properties.Resources.flechasderecha1;
+            this.botonSiguiente.Location = new System.Drawing.Point(492, 430);
+            this.botonSiguiente.Name = "botonSiguiente";
+            this.botonSiguiente.Size = new System.Drawing.Size(105, 95);
+            this.botonSiguiente.TabIndex = 5;
+            this.botonSiguiente.UseVisualStyleBackColor = true;
+            this.botonSiguiente.Click += new System.EventHandler(this.botonSiguiente_Click);
+            // 
+            // botonAnterior
+            // 
+            this.botonAnterior.AutoSize = true;
+            this.botonAnterior.Image = global::EjemploTabs_2021.Properties.Resources.flechasizquierda1;
+            this.botonAnterior.Location = new System.Drawing.Point(27, 430);
+            this.botonAnterior.Name = "botonAnterior";
+            this.botonAnterior.Size = new System.Drawing.Size(101, 95);
+            this.botonAnterior.TabIndex = 4;
+            this.botonAnterior.UseVisualStyleBackColor = true;
             // 
             // label15
             // 
@@ -357,6 +486,25 @@
             this.label13.TabIndex = 1;
             this.label13.Text = "label13";
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox6.Location = new System.Drawing.Point(153, 332);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(333, 322);
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::EjemploTabs_2021.Properties.Resources.fondoAdopciones__2_;
+            this.pictureBox7.Location = new System.Drawing.Point(-4, 0);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(624, 677);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 6;
+            this.pictureBox7.TabStop = false;
+            // 
             // imageList1
             // 
             this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
@@ -381,152 +529,6 @@
             this.imageList1.Images.SetKeyName(17, "icons8_veterinarian.ico");
             this.imageList1.Images.SetKeyName(18, "icons8_whatsapp.ico");
             // 
-            // Titulo
-            // 
-            this.Titulo.Font = new System.Drawing.Font("Snap ITC", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Titulo.ForeColor = System.Drawing.Color.Red;
-            this.Titulo.Location = new System.Drawing.Point(0, 16);
-            this.Titulo.Name = "Titulo";
-            this.Titulo.Size = new System.Drawing.Size(306, 54);
-            this.Titulo.TabIndex = 2;
-            this.Titulo.Text = "Clínica Jupar";
-            // 
-            // label18
-            // 
-            this.label18.Location = new System.Drawing.Point(8, 83);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(289, 241);
-            this.label18.TabIndex = 3;
-            this.label18.Text = "label18";
-            // 
-            // label19
-            // 
-            this.label19.Location = new System.Drawing.Point(375, 348);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(223, 301);
-            this.label19.TabIndex = 4;
-            this.label19.Text = "label19";
-            // 
-            // label17
-            // 
-            this.label17.Font = new System.Drawing.Font("Snap ITC", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label17.Location = new System.Drawing.Point(75, 10);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(205, 50);
-            this.label17.TabIndex = 11;
-            this.label17.Text = "Usuarios";
-            // 
-            // label20
-            // 
-            this.label20.Font = new System.Drawing.Font("Snap ITC", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(72, 12);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(185, 40);
-            this.label20.TabIndex = 9;
-            this.label20.Text = "Mascotas";
-            // 
-            // label21
-            // 
-            this.label21.Font = new System.Drawing.Font("Snap ITC", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(197, 3);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(230, 61);
-            this.label21.TabIndex = 8;
-            this.label21.Text = "Adopciones";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::EjemploTabs_2021.Properties.Resources.perroygato1;
-            this.pictureBox3.Image = global::EjemploTabs_2021.Properties.Resources.perroygato1;
-            this.pictureBox3.Location = new System.Drawing.Point(-4, 348);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(365, 317);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::EjemploTabs_2021.Properties.Resources.emblemaVeterinario_1;
-            this.pictureBox2.Location = new System.Drawing.Point(312, 16);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(286, 308);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::EjemploTabs_2021.Properties.Resources.buscadormascotaaas__2__LI;
-            this.pictureBox1.Image = global::EjemploTabs_2021.Properties.Resources.buscadormascotaaas__2__LI;
-            this.pictureBox1.Location = new System.Drawing.Point(-4, 196);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(352, 481);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::EjemploTabs_2021.Properties.Resources.gatomedico__2_;
-            this.pictureBox5.Location = new System.Drawing.Point(259, 303);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(358, 374);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 8;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::EjemploTabs_2021.Properties.Resources.cachorros;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 121);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(286, 179);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 7;
-            this.pictureBox4.TabStop = false;
-            // 
-            // botonSiguiente
-            // 
-            this.botonSiguiente.AutoSize = true;
-            this.botonSiguiente.Image = global::EjemploTabs_2021.Properties.Resources.flechasderecha1;
-            this.botonSiguiente.Location = new System.Drawing.Point(492, 430);
-            this.botonSiguiente.Name = "botonSiguiente";
-            this.botonSiguiente.Size = new System.Drawing.Size(105, 95);
-            this.botonSiguiente.TabIndex = 5;
-            this.botonSiguiente.UseVisualStyleBackColor = true;
-            this.botonSiguiente.Click += new System.EventHandler(this.botonSiguiente_Click);
-            // 
-            // botonAnterior
-            // 
-            this.botonAnterior.AutoSize = true;
-            this.botonAnterior.Image = global::EjemploTabs_2021.Properties.Resources.flechasizquierda1;
-            this.botonAnterior.Location = new System.Drawing.Point(27, 430);
-            this.botonAnterior.Name = "botonAnterior";
-            this.botonAnterior.Size = new System.Drawing.Size(101, 95);
-            this.botonAnterior.TabIndex = 4;
-            this.botonAnterior.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox6.Location = new System.Drawing.Point(153, 332);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(333, 322);
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::EjemploTabs_2021.Properties.Resources.fondoAdopciones__2_;
-            this.pictureBox7.Location = new System.Drawing.Point(-4, 0);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(624, 677);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -540,17 +542,17 @@
             this.Text = "Form1";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
