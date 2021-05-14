@@ -48,6 +48,13 @@ ALTER TABLE t_MASCOTAS add
 CONSTRAINT fk_Veterinario FOREIGN KEY (VeterinarioPersonal) REFERENCES t_VETERINARIOS (DNI)
 on update cascade;
 
+CREATE tABLE t_ADOPCIONES(
+    id_Adoptar int() PRIMARY KEY,
+    Nombre varchar(20) ,
+    Edad int(),
+    Sexo varchar(20)
+;)
+
 CREATE TABLE t_CITAS(
 	ID_Citas varchar(100) PRIMARY KEY,
 	Veterinario_Cita varchar(20),
@@ -66,8 +73,8 @@ CONSTRAINT fk_MascotaCita FOREIGN KEY (Mascota_Cita) REFERENCES t_MASCOTAS (Chip
 INSERT INTO t_VETERINARIOS VALUES
 ('20000000A', 'Jesus', 'Garrido', 'yisus@gmail.com', '600000000', 'General'),
 ('20000001A', 'Juan', 'Fernandez', 'ferxo11@gmail.com', '600000001', 'Dermatologia'),
-('20000002A', 'Jimena', 'Labandeira', 'jime69@gmail.com', '600000002', 'Cardiología'),
-('20000003A', 'Maria', 'Rosa', 'merisous@gmail.com', '600000003', 'Neurología');
+('20000002A', 'Jimena', 'Guti', 'jime69@gmail.com', '600000002', 'Cardiología'),
+('20000003A', 'Maria', 'DelaRosa', 'merisous@gmail.com', '600000003', 'Neurología');
 
 INSERT INTO t_MASCOTAS VALUES
 ('A1111111', 'Luno', 'Canino', '3', 'Macho', '20000000A'),
@@ -83,13 +90,15 @@ INSERT INTO t_USUARIOS VALUES
 ('11111112A', '1234', 'Rosa', 'Alvarez', 'Mujer', '37', 'rosa644@gmail.com', 'D1111111');
 
 
-
-
-
-
-
 INSERT INTO t_CITAS VALUES
 ('11111111', '20000000A', 'B1111111', '27/02/2020', '16:00', 'Revision para parto inminente'),
 ('11111112', '20000000A', 'D1111111', '21/12/2020', '17:00', 'Revision general rudimentaria'),
 ('11111113', '20000002A', 'C1111111', '14/02/2020', '08:00', 'Inyeccion contra posibles parasitos'),
 ('11111114', '20000001A', 'A1111111', '10/03/2020', '10:00', 'Revision general');
+
+INSERT INTO t_ADOPCIONES VALUES
+('1' 'Lolo', '2', 'macho'),
+('2' 'Boby', '1', 'hembra'),
+('3' 'Lula', '3', 'hembra'),
+('4' 'Toreto', '2', 'macho'),
+('5' 'Chispa', '1', 'hembra'),
